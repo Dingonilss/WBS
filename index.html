@@ -7,36 +7,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
-    <link rel="icon" type="image/x-icon" href="../static/icons/logo.png">
+    <link rel="icon" type="image/x-icon" href="logo.png">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" href="../static/icons/logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
     <meta name="apple-mobile-web-app-title" content="WBS">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <set var="device.fullscreensupport" val="true" />
 
     <title>WBS</title>
-    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div id="loadOverlay" style="background-color:#2f3136; position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:2000;"></div>
     <main>
-        <h1>Marius Stinkt</h1>
-        <iframe src="index" frameborder="0"></iframe>
+        <iframe src="" frameborder="0"></iframe>
     </main>
+    <div id="userInterface">
+        <h1>WBS</h1>
+        <h2>Server wird gesucht...</h2>
+    </div>
 </body>
 
-<style>
-    main {
-        position: fixed;
-        height: 100vh;
-        width: 100vw;
-    }
 
-    iframe {
-        width: 100%;
-        height: 100%;
-    }
-</style>
+<script type="text/javascript" src="script.js"></script>
 
 </html>

@@ -1,0 +1,47 @@
+/* © by Nils Ringelmann 2023 */
+
+
+body {
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #2f3136;
+    white-space: nowrap;
+    font-family: "Verdana";
+    color: white;
+    font-size: large;
+}
+
+main {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+#loadOverlay {
+    display: none;
+}
+
+#userInterface {
+    background-color: #2B2D31;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
